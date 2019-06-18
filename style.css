@@ -1,0 +1,31 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+    to top right,
+    rgba(10, 0, 0, 100%),
+    rgba(91, 84, 84, 56%)
+  );
+}
+
+.menu {
+}
+
+h1 {
+  font-family: futura;
+  color: white;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 114px;
+}
+
+h2 {
+  font-family: Telugu Sangam MN;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
