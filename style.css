@@ -10,7 +10,17 @@ body {
   );
 }
 
-.menu {
+.menu-dots {
+  padding-left: 24px;
+  padding-top: 33px;
+}
+
+.menu-dots div {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 6px 0;
 }
 
 h1 {
@@ -18,7 +28,8 @@ h1 {
   color: white;
   font-size: 42px;
   text-align: center;
-  padding-top: 114px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -28,4 +39,9 @@ h2 {
   font-weight: 100;
   font-size: 18px;
   letter-spacing: 2px;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: 234px;
 }
