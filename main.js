@@ -1,16 +1,17 @@
-var myIndex = 0;
-carousel();
+var index = 0;
+slideShow();
 
-function carousel() {
+function slideShow() {
   var i;
-  var x = document.getElementsByClassName("slides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  var slides = document.querySelectorAll(".slide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-  myIndex++;
-  if (myIndex > x.length) {
-    myIndex = 1;
+  index++;
+  if (index > slides.length) {
+    index = 1;
   }
-  x[myIndex - 1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  slides[index - 1].style.display = "block";
+
+  setTimeout(slideShow, 3000);
 }
