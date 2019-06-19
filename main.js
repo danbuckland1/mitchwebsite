@@ -13,5 +13,5 @@ function slideShow() {
   }
   slides[index - 1].style.display = "block";
 
-  setTimeout(slideShow, 3000);
+  setTimeout(slideShow, 4000);
 }
