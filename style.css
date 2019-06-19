@@ -10,12 +10,12 @@ body {
   );
 }
 
-.menu-dots {
+.menudots {
   padding-left: 24px;
   padding-top: 33px;
 }
 
-.menu-dots div {
+.menudots div {
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -24,12 +24,14 @@ body {
 }
 
 h1 {
-  font-family: futura;
+  /* font-family: futura; */
+  font-family: "Lobster", cursive;
   color: white;
   font-size: 42px;
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 20px;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -38,10 +40,15 @@ h2 {
   text-align: center;
   font-weight: 100;
   font-size: 18px;
-  letter-spacing: 2px;
+  letter-spacing: 9px;
+  /* text-transform: uppercase; */
+}
+
+.slides {
+  display: none;
 }
 
 .carousel img {
-  max-width: 100%;
+  width: 100%;
   height: 234px;
 }
