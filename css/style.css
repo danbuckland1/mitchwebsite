@@ -139,3 +139,16 @@ p {
   margin-left: 50px;
   color: white;
 }
+
+/*CONTACT PAGE*/
+
+h3 {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 42px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 100px;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+}
