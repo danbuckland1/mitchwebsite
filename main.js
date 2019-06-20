@@ -3,6 +3,8 @@ var myTimer;
 var slideIndex = 1;
 var slideShow;
 
+//This is for the slideshow on landing page
+
 slideShow();
 
 function slideShow() {
@@ -44,6 +46,8 @@ function slideShow() {
 //     plusSlides(1);
 //   }, 4000);
 // });
+
+//Sidebar nav controls
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
