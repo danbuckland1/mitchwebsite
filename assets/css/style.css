@@ -18,6 +18,7 @@ span {
 }
 
 .sidenav {
+  font-family: "Lobster", cursive;
   height: 100%;
   width: 0;
   position: fixed;
@@ -151,4 +152,24 @@ h3 {
   padding-top: 100px;
   /* text-transform: uppercase; */
   letter-spacing: 2px;
+}
+
+.far {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 80px;
+}
+
+.email-icon {
+  padding-top: 2px;
+  padding-bottom: 30px;
 }
