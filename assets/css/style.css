@@ -144,12 +144,14 @@ p {
 /*CONTACT PAGE*/
 
 h3 {
+  display: flex;
+  justify-content: center;
   font-family: "Lobster", cursive;
   color: white;
   font-size: 42px;
   font-style: italic;
-  text-align: center;
   padding-top: 100px;
+  padding-right: 30px;
   /* text-transform: uppercase; */
   letter-spacing: 2px;
 }
@@ -172,4 +174,16 @@ a {
 .email-icon {
   padding-top: 2px;
   padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  padding-right: 70px;
+}
+
+.email:hover {
+  cursor: pointer;
 }
