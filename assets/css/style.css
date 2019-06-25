@@ -187,3 +187,9 @@ a {
 .email:hover {
   cursor: pointer;
 }
+
+@media (min-width: 960px) {
+  span {
+    display: none;
+  }
+}
