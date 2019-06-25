@@ -5,10 +5,9 @@ body {
   background-attachment: fixed;
   background-image: linear-gradient(
     to top right,
-    rgba(10, 0, 0, 100%),
-    rgba(91, 84, 84, 56%)
-      /* rgba(36, 37, 93, 100%),
-    rgba(225, 225, 225, 100%) */
+    /* rgba(10, 0, 0, 100%),
+    rgba(91, 84, 84, 56%) */ rgba(36, 37, 93, 100%),
+    rgba(225, 225, 225, 100%)
   );
 }
 
@@ -24,7 +23,7 @@ span {
 }
 
 div .closeAbout {
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 
 .sidenav {
@@ -115,7 +114,6 @@ h2 {
   float: left;
   margin-top: -120px;
   padding-left: 15px;
-  display: inline-block;
 }
 
 .next {
@@ -123,7 +121,7 @@ h2 {
   float: right;
   margin-top: -120px;
   padding-right: 15px;
-  opacity: 1;
+  /*  */
 }
 
 /*ABOUT PAGE*/
@@ -201,8 +199,69 @@ a {
   cursor: pointer;
 }
 
-@media (min-width: 960px) {
-  span {
-    display: none;
+/*PORTFOLIO PAGE*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border: 2px solid #fff;
+  opacity: 0.5;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 }
