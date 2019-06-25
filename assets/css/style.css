@@ -17,6 +17,16 @@ span {
   color: white;
 }
 
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 30px 20px;
+}
+
+div .closeAbout {
+  padding: 30px 20px;
+}
+
 .sidenav {
   font-family: "Lobster", cursive;
   height: 100%;
@@ -50,6 +60,7 @@ span {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  padding: 30px 20px;
 }
 
 h1 {
@@ -104,6 +115,7 @@ h2 {
   float: left;
   margin-top: -120px;
   padding-left: 15px;
+  display: inline-block;
 }
 
 .next {
@@ -111,6 +123,7 @@ h2 {
   float: right;
   margin-top: -120px;
   padding-right: 15px;
+  opacity: 1;
 }
 
 /*ABOUT PAGE*/
