@@ -199,65 +199,90 @@ a {
   cursor: pointer;
 }
 
-/*PORTFOLIO PAGE*/
+/*UNDER CONCSTRUCTION*/
 
+.under {
+  font-size: 25px;
+}
+
+/*PORTFOLIO PAGE*/
 * {
   box-sizing: border-box;
 }
-
 img {
   width: 100%;
 }
-
 body {
   margin: 0;
   font-family: Arial;
 }
-
 .header {
   text-align: center;
   padding: 32px;
 }
-
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
   justify-content: center;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create four equal columns
+  that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
-
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
   border: 5px solid #fff;
+}
+.column img:hover {
   opacity: 0.5;
 }
 
-.column img:hover {
+.pic-text {
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  text-transform: transparent;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gallery:hover .image {
+  opacity: 0.3;
+}
+
+.gallery:hover .middle {
   opacity: 1;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes a two column-layout instead of four
+  columns */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+} /* Responsive layout - makes the two columns stack on
+  top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 100%;
