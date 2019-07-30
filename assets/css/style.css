@@ -139,12 +139,16 @@ h2 {
   margin: 0;
 }
 
-/* footer {
-  padding: 20px;
-  color: white;
+footer {
+  padding: 5px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: black;
+  color: white;
   text-align: center;
-} */
+}
 
 /* .carousel-container img {
   width: 100%;
