@@ -141,11 +141,11 @@ h2 {
 
 footer {
   padding: 5px;
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: gray;
   color: white;
   text-align: center;
 }
@@ -444,7 +444,8 @@ body {
 
 @media only screen and (min-width: 800px) {
   .logo,
-  span {
+  span,
+  .menu-icon {
     display: none;
   }
 }
