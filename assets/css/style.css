@@ -111,10 +111,11 @@ h2 {
 
 .nav-logo {
   width: 12%;
-  display: inline-block;
+  display: block;
   margin-left: 80px;
   border: 2px solid white;
   border-radius: 50%;
+  height: 20%;
 }
 
 .nav-links {
@@ -124,9 +125,10 @@ h2 {
 }
 
 .nav-item a {
+  font-family: "Lobster", cursive;
   display: inline-block;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px;
   list-style: none;
   color: white;
@@ -149,31 +151,6 @@ footer {
   color: white;
   text-align: center;
 }
-
-/* .carousel-container img {
-  width: 100%;
-  height: 234px;
-} */
-
-/*Fade effect for carousel photos*/
-
-/* .slide {
-  animation-name: effect;
-  animation-duration: 4s;
-}
-
-@keyframes effect {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.slide {
-  display: none;
-} */
 
 /*Arrow to shift carousel photos*/
 
@@ -230,12 +207,12 @@ footer {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
+/* .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
+Caption text
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -244,19 +221,19 @@ footer {
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+} */
 
 /* Number text (1/3 etc) */
-.numbertext {
+/* .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
+} */
 
 /* The dots/bullets/indicators */
-.dot {
+/* .dot {
   cursor: pointer;
   height: 10px;
   width: 10px;
@@ -270,10 +247,10 @@ footer {
 .active,
 .dot:hover {
   background-color: #717171;
-}
+} */
 
 /* Fading animation */
-.fade {
+/* .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -296,7 +273,8 @@ footer {
   to {
     opacity: 1;
   }
-}
+} */
+
 /*ABOUT PAGE*/
 
 p {
@@ -314,7 +292,6 @@ p {
   margin-right: auto;
   padding-top: 50px;
   width: 25%;
-  /*make width bigger in media query*/
 }
 
 .closeAbout {
@@ -374,20 +351,20 @@ a {
 }
 
 /*PORTFOLIO PAGE*/
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 img {
   width: 100%;
 }
-body {
+/* body {
   margin: 0;
   font-family: Arial;
 }
 .header {
   text-align: center;
   padding: 32px;
-}
+} */
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -405,15 +382,17 @@ body {
   max-width: 25%;
   padding: 0 4px;
 }
+
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
   border: 2px solid #fff;
 }
-.column img:hover {
+
+/* .column img:hover {
   opacity: 0.5;
-}
+} */
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 
