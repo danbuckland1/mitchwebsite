@@ -5,8 +5,6 @@ body {
     to top right,
     rgba(10, 0, 0, 100%),
     rgba(91, 84, 84, 56%)
-      /* rgba(36, 37, 93, 100%),
-    rgba(225, 225, 225, 100%) */
   );
 }
 
@@ -154,10 +152,6 @@ footer {
   text-align: center;
 }
 
-.dan {
-  font-size: 15px;
-}
-
 /*Arrow to shift carousel photos*/
 
 .prev {
@@ -172,9 +166,6 @@ footer {
   float: right;
   margin-top: -120px;
   padding-right: 15px;
-}
-* {
-  box-sizing: border-box;
 }
 
 /* Slideshow container */
@@ -309,12 +300,12 @@ img {
 }
 
 .one-third {
-  width: 29%;
+  width: 20%;
   float: left;
   margin: 2%;
 }
 
-img:hover {
+.example-image:hover {
   opacity: 0.8;
 }
 
