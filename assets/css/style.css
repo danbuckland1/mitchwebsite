@@ -328,13 +328,13 @@ img {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .navbar {
     display: none;
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .logo,
   span,
   .menu-icon {
