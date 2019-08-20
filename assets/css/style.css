@@ -305,7 +305,8 @@ img {
 }
 
 .example-image:hover {
-  border: solid 2px white;
+  border: solid 3px white;
+  opacity: 0.8;
 }
 
 .one-third {
@@ -314,8 +315,18 @@ img {
   margin: 2%;
 }
 
-.example-image:hover {
-  opacity: 0.8;
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: black;
+  bottom: 40px;
+  right: 50px;
+  padding-left: 0px;
+  padding-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 768px) {
