@@ -209,9 +209,9 @@ p {
   font-size: 20px;
   text-align: center;
   color: white;
-  line-height: 2em;
-  padding-top: 20px;
-  margin: 35px;
+  line-height: 1.5em;
+  padding-top: 5px;
+  margin: 35px 150px;
 }
 
 .about-img {
