@@ -66,7 +66,6 @@ h1 {
   font-size: 42px;
   text-align: center;
   padding-top: 30px;
-  /* text-transform: uppercase; */
   letter-spacing: 2px;
 }
 
@@ -77,7 +76,23 @@ h2 {
   font-weight: 100;
   font-size: 18px;
   letter-spacing: 9px;
-  /* text-transform: uppercase; */
+}
+
+.carouselText {
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
+  color: white;
+  font-size: 13px;
+}
+
+.carouselJob {
+  font-family: Telugu Sangam MN;
+  position: absolute;
+  bottom: 30px;
+  left: 16px;
+  color: white;
+  font-size: 10px;
 }
 
 .heading {
@@ -320,6 +335,12 @@ a img {
   margin: 2%;
 }
 
+.showTitle a {
+  display: flex;
+  justify-content: center;
+  padding: 0px 60px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -355,6 +376,12 @@ html {
   .one-third {
     width: 98%;
     margin: 1%;
+  }
+  .carouselText {
+    bottom: 15px;
+  }
+  .carouselJob {
+    bottom: 2px;
   }
 }
 
