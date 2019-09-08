@@ -220,13 +220,27 @@ footer {
 
 /*ABOUT PAGE*/
 
+.aboutPara {
+  margin: 20px;
+}
+
+.greeting {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  line-height: 1.5em;
+  /* padding-top: 3px; */
+  margin: 20px 30px;
+}
+
 p {
   font-size: 20px;
   text-align: center;
   color: white;
   line-height: 1.5em;
-  padding-top: 5px;
-  margin: 35px 30px;
+  /* padding-top: 3px; */
+  margin: 20px 30px;
 }
 
 .about-img {
@@ -298,7 +312,7 @@ a {
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 #wrapper {
