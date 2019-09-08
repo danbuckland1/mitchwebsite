@@ -20,7 +20,7 @@ span {
 }
 
 div .closeAbout {
-  padding: 20px 20px;
+  padding: 10px 20px;
 }
 
 .sidenav {
@@ -222,6 +222,7 @@ footer {
 
 .aboutPara {
   margin: 20px;
+  padding: 10px;
 }
 
 .greeting {
@@ -258,6 +259,10 @@ p {
   font-size: 36px;
   margin-left: 50px;
   color: white;
+}
+
+.closeAbout:hover {
+  cursor: pointer;
 }
 
 /*CONTACT PAGE*/
@@ -339,7 +344,7 @@ a img {
 }
 
 .example-image:hover {
-  border: solid 3px white;
+  border: solid 2px white;
   opacity: 0.8;
 }
 
