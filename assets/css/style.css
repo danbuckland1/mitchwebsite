@@ -339,16 +339,16 @@ img {
   width: 100%;
 }
 
-/* img {
+img {
   margin: 2%;
-} */
+}
 
 .column {
   width: 33.33%;
 }
 
 .column2 figure a img {
-  margin: 2% 0 !important;
+  margin: 2% 0;
 }
 
 .showTitle {
