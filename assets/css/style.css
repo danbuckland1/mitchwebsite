@@ -348,7 +348,7 @@ img {
 }
 
 .column2 figure a img {
-  margin: 2% 0;
+  margin: 2%;
 }
 
 .showTitle {
@@ -423,26 +423,6 @@ html {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 768px) {
-  .one-third {
-    width: 48%;
-    margin: 1%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .one-third {
-    width: 98%;
-    margin: 1%;
-  }
-  .carouselText {
-    bottom: 15px;
-  }
-  .carouselJob {
-    bottom: 2px;
-  }
-}
-
 @media screen and (max-width: 800px) {
   .navbar {
     display: none;
@@ -454,5 +434,54 @@ html {
   span,
   .menu-icon {
     display: none;
+  }
+}
+
+/*TABLET VIEW*/
+@media screen and (max-width: 768px) {
+  .one-third {
+    width: 48%;
+    margin: 1%;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .column {
+    margin: 0;
+    width: 100%;
+  }
+
+  figcaption {
+    width: 100%;
+    padding: 0px 0px;
+  }
+
+  figure,
+  a.showImage {
+    padding: 0px 0px;
+  }
+}
+
+/*MOBILE VIEW*/
+@media screen and (max-width: 480px) {
+  .one-third {
+    width: 98%;
+    margin: 1%;
+  }
+
+  .carouselText {
+    bottom: 15px;
+  }
+  .carouselJob {
+    bottom: 2px;
+  }
+
+  .column figure a img {
+    margin: 0;
+    width: 100%;
   }
 }
