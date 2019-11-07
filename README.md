@@ -1,1 +1,1 @@
-This is a mock up for a a colleague's lighing design website.
+This is a mock up for a colleague's lighing design website.
