@@ -464,6 +464,10 @@ html {
   a.showImage {
     padding: 0px 0px;
   }
+
+  .wrapper {
+    margin-top: 50px;
+  }
 }
 
 /*MOBILE VIEW*/
